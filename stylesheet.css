@@ -1,0 +1,89 @@
+.container {  
+    
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Info Info ."
+      "Image-1 Image-2 ."
+      "Info-2 Info-2 ."
+      "Image-3 Image-4 ."
+      "Image-6 Image-6 ."
+      "Image-7 Image-8 ."
+      "Image-9 Image-9 .";
+      margin:auto;
+     
+  }
+  
+
+  
+  .Info { grid-area: Info; }
+  
+  .Image-1 { grid-area: Image-1; }
+  
+  .Image-2 { grid-area: Image-2; }
+  
+  .Info-2 { grid-area: Info-2; }
+  
+  .Image-3 { grid-area: Image-3; }
+  
+  .Image-4 { grid-area: Image-4; }
+  
+  .Image-6 { grid-area: Image-6; }
+  
+  .Image-7 { grid-area: Image-7; }
+  
+  .Image-8 { grid-area: Image-8; }
+  
+  .Image-9 { grid-area: Image-9; }
+  
+  
+  html, body , .container {
+    height: 100%;
+    margin: auto
+  }
+  
+  /* For presentation only, no need to copy the code below */
+  
+  .container * {
+    border: 1px solid red;
+    position: relative;
+  }
+  
+  .Info, .Info-2 {
+    text-align: left;
+  margin:100px;
+  padding:60px;
+  font-size: .9em;
+    
+  }
+  
+
+  img {
+margin:200px;
+    padding:20px;
+    width:80%
+  }
+  
+
+  @font-face {
+    font-family: 'berthold_akzidenz_grotesk_bRg';
+    src: url('berthold-akzidenz-grotesk-be-light-webfont.woff2') format('woff2'),
+         url('berthold-akzidenz-grotesk-be-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "berthold_akzidenz_grotesk_bRg", "Arial", sans-serif;
+	font-weight: normal;
+    border: 1px;
+    border-color: navy;
+}
