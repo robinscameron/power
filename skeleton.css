@@ -361,7 +361,7 @@ form {
 
 
   .row {
-    padding: 20px 20px 20px 20px;
+    margin: 1px;
   }
 
 
@@ -380,7 +380,6 @@ form {
 
   .u-img-responsive {
     display: block;
-    max-width: 100%;
     width: 100%;
     height: auto; }
 
